@@ -1,9 +1,14 @@
 {
     "firstName":"sai",
     "lastname":"kumar",
-    "email":"saikjumarkn@gmail.com",
+    "email":"saikjumarkn@gmailcom",
     "telNum":"123456789",
     "passw":"Saikumar@26",
-    "passwordChecking":"Saikumar@26"
+    "passwordChecking":"Saikumar@26",
+    "productSucess":{
+
+            "message":"Success: You have added Samsung Galaxy Tab 10.1 to your shopping cart!1"
+    
+    }
 
 }

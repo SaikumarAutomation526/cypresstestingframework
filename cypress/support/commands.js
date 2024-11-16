@@ -24,3 +24,10 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 /// <reference types='Cypress' />
+
+Cypress.Commands.add('loginPage',(email,password)=>{
+    cy.visit('https://naveenautomationlabs.com/opencart/index.php?route=account/login');
+    cy.get('#input-email').type(email);
+    cy.get('#input-password').type(password);
+    cy.get('input[value="Login"]').click();
+})
